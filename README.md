@@ -1,5 +1,7 @@
 # User API
 
+A small REST API for managing a database of users
+
 ## Core Dependencies
 
 1. [Nodejs](https://nodejs.org/en/)
