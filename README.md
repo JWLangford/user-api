@@ -7,8 +7,8 @@
 3. [Lowdb](https://www.npmjs.com/package/lowdb)
 4. [swagger-jsdoc](https://www.npmjs.com/package/swagger-jsdoc)
 5. [swagger-ui-express](https://www.npmjs.com/package/swagger-ui-express)
-6. [nodemon]("https://www.npmjs.com/package/nodemon")
-7. [yarn]("https://yarnpkg.com/")
+6. [nodemon](https://www.npmjs.com/package/nodemon)
+7. [yarn](https://yarnpkg.com/)
 
 ## Installation
 
