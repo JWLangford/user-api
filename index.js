@@ -16,7 +16,7 @@ const { users } = db.data;
 const app = express();
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
-app.get("/users", (req, res) => {
+app.get("/users/api", (req, res) => {
   res.send(users);
 });
 
