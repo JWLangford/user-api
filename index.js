@@ -1,10 +1,10 @@
-import express from "express"
-import { JSONFile, Low } from "lowdb"
-import { join } from "path"
-import swaggerUi from "swagger-ui-express"
+import express from "express";
+import { JSONFile, Low } from "lowdb";
+import { join } from "path";
+import swaggerUi from "swagger-ui-express";
 
-import { defaultData } from "./src/utils/database.js"
-import { swaggerDocs } from "./src/utils/swagger.js"
+import { defaultData } from "./src/utils/database.js";
+import { swaggerDocs } from "./src/utils/swagger.js";
 
 const file = join("db.json");
 const adapter = new JSONFile(file);
@@ -20,7 +20,7 @@ app.get("/users/api", (req, res) => {
   res.send(users);
 });
 
-app.get("/users/:id", (req, res) => {
+app.get("/us/:id", (req, res) => {
   const id = req.params.id;
   res.send(users[0]);
 });
