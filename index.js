@@ -20,7 +20,7 @@ app.get("/users/api", (req, res) => {
   res.send(users);
 });
 
-app.get("/us/:id", (req, res) => {
+app.get("/ufdsfs/:id", (req, res) => {
   const id = req.params.id;
   res.send(users[0]);
 });
