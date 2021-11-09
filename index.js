@@ -2,7 +2,6 @@ import express from "express";
 import { JSONFile, Low } from "lowdb";
 import { join } from "path";
 import swaggerUi from "swagger-ui-express";
-
 import { defaultData } from "./src/utils/database.js";
 import { swaggerDocs } from "./src/utils/swagger.js";
 
@@ -17,6 +16,7 @@ const app = express();
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
 app.get("/users/api", (req, res) => {
+  console.log("test");
   res.send(users);
 });
 
