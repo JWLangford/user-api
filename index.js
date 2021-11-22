@@ -16,7 +16,7 @@ const app = express();
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
 app.get("/users/api", (req, res) => {
-  console.log("test23");
+  console.log("test24");
   res.send(users);
 });
 
